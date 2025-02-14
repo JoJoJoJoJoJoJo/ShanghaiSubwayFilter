@@ -5,5 +5,9 @@
 
 地铁数据来自高德地图，感谢[知乎文章](https://zhuanlan.zhihu.com/p/681589792)提供的方案
 
+## 其他城市支持&数据更新
+其他城市，或者上海数据更新后可以参考同样的方案复制json数据并覆盖`raw_subway_info.json`。覆盖后需运行`build_subway_info`
+
 # TODO
 - [ ] 黑名单，排除掉某些特别挤的换乘站（比如东方体育中心）/ 地铁线
+- [ ] format args, 提供json数据更新的专用命令
